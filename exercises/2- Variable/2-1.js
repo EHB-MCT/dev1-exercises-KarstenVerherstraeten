@@ -8,6 +8,8 @@ let context = canvas.getContext('2d');
 let width = context.canvas.width;
 let margin = 50;
 
+/* let spacing = 50; als Y coordinaat dus bv (margin, pacing) of voor meer (margin, spacing * 2) */
+
 drawLine(50,50)
 
 
