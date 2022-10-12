@@ -62,7 +62,7 @@ function smallestBoxLeft(){
     context.beginPath()
     context.rect(25, 475, 50,50)
     context.stroke();
-    context.fill();
+    
 }
 
 function smallestBoxRight(){
