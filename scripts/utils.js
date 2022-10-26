@@ -11,3 +11,36 @@ import context from "./context.js";
     context.stroke();
 
 }
+
+export function drawRect(x, y, width,height,color){
+
+    context.beginPath();
+    context.fillStyle = color;
+    context.fillRect(x,y,width,height);
+    console.log(color);
+    context.closePath();
+
+}
+
+export function drawCircle(x1, y1, radius){
+
+    context.beginPath();
+    context.ellipse(x1,y1,radius,radius,0,0, 180);
+    context.fill();
+}
+
+
+export function rgb(R ,G ,B){
+    let rgb = "rgb(" + R + "," + G + "," + B + ")";
+    return rgb;
+
+
+}export function rgba(R ,G ,B, A){
+    let rgba = "rgb(" + R + "," + G + "," + B + "," + A + ")";
+    return rgba;
+}
+
+
+
+
+
